@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="index.css">
+  <title>8BitCoffee</title>
+</head>
+<body class="text-xl">
+  <nav class="flex justify-between p-6 pr-16 pl-6">
+    <div class="flex gap-2">
+      <img src="/static/logo.png" class="w-8 h-8 bg-auto" alt="">
+      <h1 id="logo" class="text-4xl font-medium">8<span class="text-red-600">B</span><span class="text-green-400">I</span><span class="text-blue-400">T</span> Coffee</h1>
+    </div>
+    <ul class="flex gap-4 items-center">
+      <li><a href="#Ponuka">Ponuka</a></li>
+      <li><a href="#Kontakt">Kontakt</a></li>
+    </ul>
+  </nav>
+  <div class="grid grid-cols-2 place-items-center pt-12 pb-12">
+    <div class="flex flex-col text-center bg-blue-200 rounded-r-lg p-16">
+      <div class="flex flex-col gap-8 pl-48">
+        <h2 class="text-4xl font-medium bg-gradient-to-r from-red-400 via-emerald-500 to-blue-400 inline-block text-transparent bg-clip-text">Pridte náš navštíviť a vychutnáť si dobrú kávu.</h2>
+        <div>
+          <p>Ponúkame príjemne prostredie kde si môžeš vychutnať kvalitnú kávičku, pri ktorej si môžeš zahrať svoje oblubené hry alebo pracovať. </p>
+          <p>Taktiež ponúkame možnosť sa zúčastniť rôznych workshopov a možno získať aj pracovnú príležitosť</p>
+        </div>
+        <p>✦ KVALITA ✦ PRIJEMNE PROSTREIDE ✦ WORKSHOPY ✦ ŠTUDENTSKE ZĽAVY ✦ </p>
+      </div>
+    </div>
+    <img src="static/priestor.jpg" class="w-1/2" alt="">
+  </div>
+  <div class="p-24">
+    <div id="bg" class="flex flex-col text-center gap-6 p-8 bg-slate-800/90 text-white backdrop-blur-sm rounded-lg" id="bg">
+      <h3 class="text-xl font-medium">Cenník:</h3>
+      <div id="Ponuka" class="grid grid-cols-3 place-items-center">
+        <div>
+          <p>Káva</p>
+          <ul>
+            <li>Espresso: 1,90€</li>
+            <li>Dvojité Espresso: 3,80€</li>
+            <li>Ristretto: 1,30€</li>
+            <li>Lungo: 1,90€</li>
+            <li>Macchiato: 2,00€</li>
+            <li>Capuccino: 2,00€</li>
+            <li>Americano: 2,00€</li>
+            <li>Latte Macchiato: 2,00€</li>
+            <li>Caffé Latte: 2,00€</li>
+            <li>Iced Coffee: 1,60€</li>
+          </ul>
+        </div>
+        <div>
+          <p>Zákusky</p>
+          <ul>
+            <li>Malinový cheesecake: 2,40€</li>
+            <li>Jahodový cheesecake: 2,40€</li>
+            <li>Čokoladový cheesecake: 2,40€</li>
+            <li>Marlenka: 2,40€</li>
+            <li>Tiramisu: 2,20€</li>
+          </ul>
+        </div>
+        <div>
+          <p>Nápoje</p>
+          <ul>
+            <li>Čierný čaj: 1,20€</li>
+            <li>Zelený čaj: 1,20€</li>
+            <li>Ovocný čaj: 1,20€</li>
+            <li>Matcha čaj: 1,60€</li>
+            <li>Domaca limonáda: 1,90€</li>
+            <li>Coca Cola: 1,90€</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="flex flex-col p-6 text-center bg-emerald-200  w-full mt-auto backdrop-blur-xl">
+    <h3 class="font-extrabold">8BIT COFFEE s.r.o.</h3>
+    <div class="grid grid-cols-3">
+      <div class="flex gap-2 flex-col">
+        <div>
+          <p>Adresa:</p>
+          <p>8BIT COFFEE s.r.o.</p>
+          <p>Vysokoškolákov 8556/33B</p>
+          <p>010 08 Žilina</p>
+        </div>
+      </div>
+      <div id="Kontakt" class="flex flex-col">
+        <p>Kontakt:</p>
+        <p>8bitcoffee@outlook.com</p>
+        <p>+421 xxx xxx xxx</p>
+        <p>010 08 Žilina</p>
+      </div>
+    </div>
+    <p>This website is part of</p>
+  </footer>
+</body>
+</html>

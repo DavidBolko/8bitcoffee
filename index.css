@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: "VT323", monospace;
+  background-color: #d1fae5;
+}
+
+#bg{
+  background-image: url("/static/bg.jpeg");
+  background-size: cover;
+}
+
+a:hover{
+  color: #4ade80;
+}
