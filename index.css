@@ -9,7 +9,7 @@ body{
 }
 
 #bg{
-  background-image: url("/static/bg.jpeg");
+  background-image: url("static/bg.jpeg");
   background-size: cover;
 }
 
