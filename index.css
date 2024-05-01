@@ -11,7 +11,9 @@ body{
 #bg{
   background-image: url("static/bg.jpeg");
   background-size: cover;
+  filter: saturate(80%);
 }
+
 
 a:hover{
   color: #4ade80;
